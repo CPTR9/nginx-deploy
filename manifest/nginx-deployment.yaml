@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: tomcat:latest
+        image: bitnami/nginx:latest
         ports:
         - containerPort: 80
 ---
